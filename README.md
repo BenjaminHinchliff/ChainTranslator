@@ -12,7 +12,7 @@ optional arguments:
   -h, --help          show this help message and exit
   -t TEXT             text to run through the translator
   -f FILE             file to open and run through translator
-  -p CODE [CODE ...]  list of languages to translate the text through using c
+  -p CODE [CODE ...]  list of languages to translate the text through using iso639-1
                       codes. Will automatically translate back to original
                       language that it detects.
   -s                  silent mode
