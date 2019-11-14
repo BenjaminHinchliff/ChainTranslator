@@ -3,7 +3,7 @@ from distutils.core import setup
 
 setup(
     name="ChainTranslator",
-    packages=[],
+    packages=[ChainTranslator],
     version="1.0.3",
     license="MIT",
     description="a package to mess up text via google translate",
