@@ -2,7 +2,7 @@ from googletrans import Translator
 import argparse
 
 def main():
-    parser = argparse.ArgumentParser(description="Mess up some words.")
+    parser = argparse.ArgumentParser(description="Mess up some words.", prog="chaintranslator")
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument("-t", help="text to run through the translator", metavar="TEXT", type=str)
     group.add_argument("-f", help="file to open and run through translator", metavar="FILE", type=str)
