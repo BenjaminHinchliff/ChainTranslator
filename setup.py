@@ -4,7 +4,7 @@ from distutils.core import setup
 setup(
     name="ChainTranslator",
     packages=[],
-    version="1.0.2",
+    version="1.0.3",
     license="MIT",
     description="a package to mess up text via google translate",
     author="Benjamin Hinchliff",
