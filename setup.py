@@ -1,12 +1,18 @@
 import pathlib
 from distutils.core import setup
 
+HERE = pathlib.Path(__file__).parent
+
+README = (HERE/"README.md").read_text()
+
 setup(
     name="ChainTranslator",
     packages=["ChainTranslator"],
     version="1.0.5",
     license="MIT",
     description="a package to mess up text via google translate",
+    long_description=README,
+    long_description_content_type="text/markdown",
     author="Benjamin Hinchliff",
     author_email="benjamin.hinchliff@gmail.com",
     url="https://github.com/SuniTheFish/ChainTranslator",
