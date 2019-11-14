@@ -8,7 +8,7 @@ README = (HERE/"README.md").read_text()
 setup(
     name="ChainTranslator",
     packages=["ChainTranslator"],
-    version="1.0.5",
+    version="1.0.6",
     license="MIT",
     description="a package to mess up text via google translate",
     long_description=README,
