@@ -1,8 +1,8 @@
-from googletrans import Translator
+from googletrans import Translator, LANGCODES
 import argparse
 
 def main():
-    parser = argparse.ArgumentParser(description="Mess up some words.", prog="chaintranslator")
+    parser = argparse.ArgumentParser(description="Mess up some words.", prog="chaintranslator", epilog="iso639-1 codes: {}".format(LANGCODES))
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument("-t", help="text to run through the translator", metavar="TEXT", type=str)
     group.add_argument("-f", help="file to open and run through translator", metavar="FILE", type=str)

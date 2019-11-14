@@ -1,5 +1,5 @@
 import pathlib
-from distutils.core import setup
+from setuptools import setup
 
 HERE = pathlib.Path(__file__).parent
 
